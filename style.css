@@ -1,0 +1,105 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #383d45;
+  color:white;
+}
+
+h1 {
+  font-style: bold;
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+}
+p {
+  font-style: bold;
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+}
+
+
+
+button {
+  padding: 20px;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 15px;
+  transition-duration:0.1s;
+}
+#startBtn{
+  background-color: lightgreen;
+}
+
+#stopBtn{
+  background-color:pink;
+}
+
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 1px;
+  border-color:black;
+
+}
+#button1:active, #button2:active, #button3:active, #button4:active, #button5:active, #button6:active {
+  background-image: url("https://cdn.glitch.com/390ecf5c-1198-4809-9da8-2fe53e58bf59%2Fpow.png?v=1616572476566");
+  background-size:200px 200px;
+  background-repeat:no-repeat;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 { 
+  background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+  background-color:green;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button2:active, #button2.lit {
+  background-color:blue;
+}
+
+#button3 {
+  background:pink;
+}
+
+#button3:active, #button3.lit {
+  background-color:red;
+}
+
+#button4 {
+  background:lightyellow;
+}
+
+#button4:active, #button4.lit {
+  background-color:yellow;
+}
+
+#button5 {
+  background:violet;
+}
+
+#button5:active, #button5.lit {
+  background-color:purple;
+}
+
+#button6 {
+  background:gold;
+}
+
+#button6:active, #button6.lit {
+  background-color:darkorange;
+}
